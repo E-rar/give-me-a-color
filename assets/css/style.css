@@ -1,0 +1,18 @@
+
+section{ /*stylen der section und positionierung in der Mitte*/
+    display:inline-block;
+    text-align:center;
+    background-color:#fff;
+    position:absolute;
+    top:43%;
+    left:45%;
+    border-radius:1vh;
+    border:black solid 0.5vh;  
+}
+form{ /*geben wir der form etwas Abstand zu der border der section */
+    padding:4vh 4vh;
+}
+#senden{ /*den button stylen*/
+    background-color:rgb(0, 255, 0);
+    width:100%;
+}
